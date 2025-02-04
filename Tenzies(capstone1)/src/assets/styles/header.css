@@ -1,0 +1,12 @@
+header{
+    h1{
+        font-weight: 600;
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    p{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+}

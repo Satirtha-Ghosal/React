@@ -1,0 +1,43 @@
+.buttons{
+    padding: 40px 0;
+}
+
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    margin: 30px 0;
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 5px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.select{
+    background-color: aquamarine;
+}
+
+#roll, #new{
+    background-color: blue;
+    color: black;
+    width: fit-content;
+    font-size: 30px;
+    padding: 10px 30px;
+    color: white;
+    box-shadow: 0 0 10px 5px rgba(46, 65, 213, 0.5);
+}
+
+.no{
+    display: none;
+}
+
+button{
+    cursor: pointer;
+}
